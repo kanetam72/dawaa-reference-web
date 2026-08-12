@@ -1,0 +1,30 @@
+{
+  "db_filename": "pharmacy.db",
+  "sha256": "46a2fe672c72c29a74ea98ca3bb0a5c9d146d421c2500968591a156fa10caa72",
+  "size_bytes": 8335360,
+  "dataset_snapshot": "2026-06",
+  "condition_count": 704,
+  "verified_count": 334,
+  "pending_count": 370,
+  "table_row_counts": {
+    "conditions": 704,
+    "synonyms": 3163,
+    "treatments": 1266,
+    "cautions": 4851,
+    "brands": 5313,
+    "products": 25070,
+    "meta": 4
+  },
+  "risk_charts": {
+    "who_cvd_grid.json": {
+      "sha256": "3c3ed9adef639247448b0e86e9a146ec50b56508a081472c20385f02d2d561b0",
+      "size_bytes": 25921,
+      "cells": 700
+    },
+    "who_cvd_grid_lab.json": {
+      "sha256": "fe8a2df88044bd56fb2abe9d398dea6cce5ce83882d43a929c255453a2ec5dfa",
+      "size_bytes": 53653,
+      "cells": 1400
+    }
+  }
+}
