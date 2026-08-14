@@ -53,6 +53,24 @@
   <title>Dawaa Reference</title>
   <link rel="manifest" href="manifest.json">
 
+  <!--
+    NOT OFFLINE, and the copy must not say it is.
+
+    Flutter 3.44 ships flutter_service_worker.js as an *unregister stub* - it
+    calls self.registration.unregister() on activate - so nothing caches the app
+    shell. Verified by fetching it from the live site. GitHub Pages then serves
+    everything with Cache-Control: max-age=600, so past ten minutes every asset
+    needs a revalidation round-trip and with no network the page does not load
+    at all.
+
+    What IS true, and is what the copy now claims: the 8.8 MB database is stored
+    in IndexedDB on first visit and is not downloaded again. That is the part
+    worth telling the reader about.
+
+    Real offline needs a precache service worker keyed to the build hash. That
+    is queued rather than improvised here: a service worker that gets it wrong
+    pins a stale build on a public medical site and is unpleasant to unstick.
+  -->
   <style>
     html, body {
       margin: 0;
@@ -164,13 +182,13 @@
     <div class="bar"><i></i></div>
     <div class="note" id="boot-note">
       Loading the drug database — about 9&nbsp;MB.<br>Only on the first visit;
-      after that it opens offline.
+      it is kept on this device afterwards.
     </div>
   </div>
 
   <div id="ios-install">
     <div>
-      Add this to your Home Screen for a full-screen app that opens offline:
+      Add this to your Home Screen to open it full screen, like an app:
       tap <b>Share</b> at the bottom of Safari, then <b>Add to Home Screen</b>.
     </div>
     <button class="x" id="ios-install-x" aria-label="Dismiss">&times;</button>
