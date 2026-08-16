@@ -1,7 +1,7 @@
 {
   "db_filename": "pharmacy.db",
-  "sha256": "7f08dad22a53b6846a109bf9abb541cf03406e977033a4bc7532cc148bf89add",
-  "size_bytes": 9285632,
+  "sha256": "d1d35b417d232b61d781ded80dfe6aa5d83fbb774f600ea22403c5d17d990c2e",
+  "size_bytes": 9412608,
   "dataset_snapshot": "2026-06",
   "condition_count": 713,
   "verified_count": 713,
@@ -9,9 +9,9 @@
   "table_row_counts": {
     "conditions": 713,
     "synonyms": 3392,
-    "treatments": 1537,
-    "cautions": 6001,
-    "brands": 6378,
+    "treatments": 1585,
+    "cautions": 6175,
+    "brands": 6730,
     "products": 25070,
     "meta": 4
   },
