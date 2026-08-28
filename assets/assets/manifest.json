@@ -1,7 +1,7 @@
 {
   "db_filename": "pharmacy.db",
-  "sha256": "a8b2afd77afea478718b22deb1aeb82ec42e0a4331d8e1d960ca4efc89b021c5",
-  "size_bytes": 13713408,
+  "sha256": "4ccae2aa1bdad412fdb8b14f56ca48148fb90c51e20b340e77611ed83c315112",
+  "size_bytes": 13721600,
   "dataset_snapshot": "2026-06",
   "condition_count": 765,
   "verified_count": 0,
@@ -20,7 +20,7 @@
     "indications": 87,
     "meta": 4,
     "presentation": 635,
-    "presentation_point_tags": 4819,
+    "presentation_point_tags": 4890,
     "presentation_points": 13676,
     "products": 25070,
     "score_bands": 48,
