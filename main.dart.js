@@ -48445,7 +48445,7 @@ n=A.b7K(j)
 if(n!=null)s+=" \u2013 verified against "+n
 j=j.f
 j=j!=null?s+(" ("+j+")"):s
-if(i.toLowerCase()==="reviewed")j+=", and approved by the physician who maintains this app (24 Aug 2026) \u2013 not an independent second review"}m=j.charCodeAt(0)==0?j:j
+if(i.toLowerCase()==="reviewed")j+=", and approved"}m=j.charCodeAt(0)==0?j:j
 l=q?"NO MEDICINE IN PRIMARY CARE":i.toUpperCase()
 j=A.bG(8)
 i=A.W(30,p.m()>>>16&255,p.m()>>>8&255,p.m()&255)
