@@ -1,6 +1,6 @@
 {
   "db_filename": "pharmacy.db",
-  "sha256": "7b560ed62c979a473f7a9ace78d34f3357f8dae67212d9f91638f80f1b7f7c2f",
+  "sha256": "977abb9daa30a4de1cd3c25186cdb00dfdbdfd16a2d2599405c140bcba5eecfe",
   "size_bytes": 14008320,
   "dataset_snapshot": "2026-06",
   "condition_count": 766,
@@ -11,7 +11,7 @@
     "brands": 7399,
     "cautions": 7234,
     "condition_scores": 34,
-    "condition_specialties": 1224,
+    "condition_specialties": 1223,
     "condition_urgency": 121,
     "conditions": 766,
     "drug_classes": 520,
