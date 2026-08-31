@@ -1,15 +1,15 @@
 {
   "db_filename": "pharmacy.db",
-  "sha256": "6cb8aee631e77305bdc8fc4ca292a0c5d6a7fd105cacae8091bbc0ede2b9d2d7",
-  "size_bytes": 15683584,
+  "sha256": "26ff83e2b82a56711089bd46370e3f967bd5b2672929197f98a06252525a5415",
+  "size_bytes": 15740928,
   "dataset_snapshot": "2026-06",
   "condition_count": 766,
   "verified_count": 0,
   "reviewed_count": 766,
   "pending_count": 0,
   "table_row_counts": {
-    "brands": 7399,
-    "cautions": 7234,
+    "brands": 7543,
+    "cautions": 7303,
     "condition_scores": 34,
     "condition_specialties": 1223,
     "condition_urgency": 121,
@@ -32,8 +32,8 @@
     "score_tiers": 7,
     "scores": 23,
     "specialties": 18,
-    "synonyms": 4142,
-    "treatments": 1774,
+    "synonyms": 4206,
+    "treatments": 1794,
     "withdrawn": 2
   },
   "risk_charts": {
