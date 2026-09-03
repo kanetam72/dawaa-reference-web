@@ -9255,7 +9255,7 @@ s=1
 break
 case 1:return A.F(q,r)}})
 return A.G($async$aIT,r)},
-ua(a,b){var s=0,r=A.H(t.Ln),q,p,o,n,m,l,k,j,i,h,g,f,e
+ua(a,b){var s=0,r=A.H(t.Ln),q,p,o,n,m,l,k,j,i,h,g,f
 var $async$ua=A.I(function(c,d){if(c===1)return A.E(d,r)
 for(;;)switch(s){case 0:s=3
 return A.m(a.iU("SELECT generic, display_name, review_status FROM drug_profiles WHERE generic = ? LIMIT 1",[b]),$async$ua)
@@ -9284,15 +9284,13 @@ case 6:if(p.a===0){q=null
 s=1
 break}A.a5(J.cw(i.gR(j),"generic"))
 o=A.a5(J.cw(i.gR(j),"display_name"))
-i=A.aM(J.cw(i.gR(j),"review_status"))
-if(i==null)i=""
+A.aM(J.cw(i.gR(j),"review_status"))
 h=A
 g=o
-f=i
-e=p
+f=p
 s=7
 return A.m(A.aIT(a,b),$async$ua)
-case 7:q=new h.va(g,f,e,d)
+case 7:q=new h.va(g,f,d)
 s=1
 break
 case 1:return A.F(q,r)}})
@@ -9301,11 +9299,9 @@ lB:function lB(a,b){this.a=a
 this.b=b},
 m4:function m4(a,b){this.a=a
 this.b=b},
-va:function va(a,b,c,d){var _=this
-_.b=a
-_.c=b
-_.d=c
-_.e=d},
+va:function va(a,b,c){this.b=a
+this.d=b
+this.e=c},
 aIU:function aIU(){},
 aIV:function aIV(){},
 aIW:function aIW(){},
@@ -49900,22 +49896,20 @@ s=t.p
 r=A.b([],s)
 q=!h
 if(q)B.b.J(r,A.b([A.y(k.c.b,B.a2u,j,j,j,B.nx,j,j),B.bp],s))
-p=k.c
-if(p.c==="reviewed")o="Reviewed by a clinician. Each line names the product it is quoted from."
-else o=h?"Drug reference \u2014 quoted from the labels named below. Not clinician-reviewed.":"Quoted from the labels named under each line. Not yet reviewed line by line by a clinician \u2014 check the product a dose came from before using it."
+p=h?"Drug reference \u2014 quoted from the product labels named below.":"Quoted from the product labels named under each line. Check the product a dose came from before using it."
 h=h?11.5:12
-n=i.rx
-r.push(A.y(o,B.a2v,j,j,j,A.ab(j,j,n==null?i.k3:n,j,j,j,j,j,j,j,j,h,j,j,j,j,1.35,!0,j,j,j,j,j,j,j,j),j,j))
+o=i.rx
+r.push(A.y(p,B.a2v,j,j,j,A.ab(j,j,o==null?i.k3:o,j,j,j,j,j,j,j,j,h,j,j,j,j,1.35,!0,j,j,j,j,j,j,j,j),j,j))
 h=A.b([new A.a2(B.Ji,A.aT(r,B.t,j,B.j,B.m),j)],s)
-for(s=p.d,p=p.e,r=J.b1(p),m=0;m<6;++m){o=B.Nn[m]
-l=o.a
-n=s.h(0,l)
-n=n==null?j:J.fc(n)
-if(n!==!0)n=l==="child"&&q&&r.gbT(p)
-else n=!0
-if(n){n=s.h(0,l)
-if(n==null)n=B.Ny
-h.push(k.amF(a,i,l,o.b,o.c,n))}}h.push(B.bp)
+for(s=k.c,r=s.d,s=s.e,p=J.b1(s),n=0;n<6;++n){o=B.Nn[n]
+m=o.a
+l=r.h(0,m)
+l=l==null?j:J.fc(l)
+if(l!==!0)l=m==="child"&&q&&p.gbT(s)
+else l=!0
+if(l){l=r.h(0,m)
+if(l==null)l=B.Ny
+h.push(k.amF(a,i,m,o.b,o.c,l))}}h.push(B.bp)
 return new A.a2(g,A.bW(j,A.aT(h,B.t,j,B.j,B.m),B.n,j,j,new A.bE(j,j,e,f,j,j,B.H),j,j,j,j,j,j,j,j),j)},
 amF(a6,a7,a8,a9,b0,b1){var s,r,q,p,o,n,m,l,k=this,j=null,i="This line points to a numbered table that this card does not show - read that table in the label before you dose.",h=a8==="child"&&!k.d?k.c.e:B.Nz,g=J.cl(b1),f=g.fw(b1,new A.a7z(),t.N).dF(0),e=f.a===1&&g.gF(b1)>1?f.gR(0):j,d=A.t(a6).JK(B.v),c=t.O,b=a7.b,a=A.bx(b0,b,j,18),a0=a7.k3,a1=A.y(a9,j,j,j,j,A.ab(j,j,a0,j,j,j,j,j,j,j,j,13,j,j,B.E,j,j,!0,j,j,j,j,j,j,j,j),j,j),a2=J.b1(h),a3=a2.gab(h)?""+g.gF(b1):""+g.gF(b1)+" + kg",a4=a7.rx,a5=a4==null
 a3=A.y(a3,j,j,j,j,A.ab(j,j,a5?a0:a4,j,j,j,j,j,j,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j)
@@ -50846,7 +50840,7 @@ f.push(B.bE)
 if(s)c=n
 else{c=p.b
 c=c==null?n:c.c2(200)
-c=p.w5(c,B.ba)}f.push(A.y("Formulary dosing, not a curated regimen. This drug is not ranked against the treatments on the condition page, and this is the formulary's general dosing rather than a dose chosen for this condition. Not clinician-reviewed.",B.a35,n,n,n,c,n,n))
+c=p.w5(c,B.ba)}f.push(A.y("Formulary dosing, not a curated regimen. This drug is not ranked against the treatments on the condition page, and this is the formulary's general dosing rather than a dose chosen for this condition.",B.a35,n,n,n,c,n,n))
 B.b.J(d,f)}else{if(p==null)f=n
 else{f=p.b
 f=f==null?n:f.c2(200)
@@ -51409,7 +51403,7 @@ i=A.b([r,new A.oV("SYMPTOMS",m,e,e,e),new A.oV("SIGNS",l,e,e,e),new A.oV("LABS A
 for(r=c.d,m=r.length,l=t.O,h=0;h<r.length;r.length===m||(0,A.q)(r),++h){g=r[h]
 B.b.J(i,A.b([B.bE,A.aKG(B.La,new A.L("open_score_"+g.a,l),A.y(g.b+" \u2014 "+g.c,e,e,e,e,e,e,e),new A.azG(a0,g),e)],p))}i.push(B.aB)
 i.push(A.da(!1,e,!0,new A.a2(B.l7,A.y("Source",e,e,e,e,A.ab(e,e,q,e,B.eN,e,e,e,e,e,e,12,e,e,B.E,e,e,!0,e,e,e,e,e,e,e,e),e,e),e),e,!0,e,e,e,e,B.a3A,e,e,e,e,e,new A.azH(a0,c),e,e,e,e,e,e,e))
-i.push(A.y("Traced to the source, not clinician-reviewed",B.a3B,e,e,e,A.ab(e,e,n?d.k3:o,e,e,e,e,e,e,e,e,11,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e))
+i.push(A.y("Traced to the source above",B.a3B,e,e,e,A.ab(e,e,n?d.k3:o,e,e,e,e,e,e,e,e,11,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e))
 s.push(new A.a2(B.Jb,A.aT(i,B.t,e,B.j,B.m),e))}return A.bW(e,A.aT(s,B.t,e,B.j,B.m),B.n,e,e,new A.bE(e,e,a,b,e,e,B.H),e,e,e,B.pS,e,e,e,e)},
 alB(a,b){var s,r,q,p,o,n,m=null
 if(b.length===0)return B.ac
