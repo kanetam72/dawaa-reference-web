@@ -1,7 +1,7 @@
 {
   "db_filename": "pharmacy.db",
-  "sha256": "60a424d16b81a045cc0c4adedfaa4caf336a5e4f6ff7fe15ba139e3d35444f31",
-  "size_bytes": 16728064,
+  "sha256": "6a4c40923d1443312d81b3c1535399496a961ae43ccfbbbd39d10d2c34e9957d",
+  "size_bytes": 17219584,
   "dataset_snapshot": "2026-06",
   "condition_count": 766,
   "verified_count": 0,
@@ -9,22 +9,22 @@
   "pending_count": 0,
   "table_row_counts": {
     "brands": 8826,
-    "cautions": 8437,
+    "cautions": 8474,
     "condition_scores": 36,
     "condition_specialties": 1223,
-    "condition_urgency": 131,
+    "condition_urgency": 157,
     "conditions": 766,
     "drug_classes": 577,
-    "drug_profile_items": 4212,
-    "drug_profiles": 308,
+    "drug_profile_items": 4427,
+    "drug_profiles": 322,
     "drug_synonyms": 426,
     "finding_tag_synonyms": 1978,
     "finding_tags": 363,
     "indications": 87,
     "meta": 6,
-    "presentation": 655,
-    "presentation_point_tags": 6359,
-    "presentation_points": 14480,
+    "presentation": 692,
+    "presentation_point_tags": 6609,
+    "presentation_points": 14725,
     "products": 25070,
     "score_bands": 61,
     "score_items": 259,
@@ -46,6 +46,12 @@
       "sha256": "fe8a2df88044bd56fb2abe9d398dea6cce5ce83882d43a929c255453a2ec5dfa",
       "size_bytes": 53653,
       "cells": 1400
+    }
+  },
+  "immunization_schedule": {
+    "immunization_schedule.json": {
+      "sha256": "d17420ed460888a60bb03eb78f5dfbebce2f4d5be835060bfcb80d704c1d981f",
+      "size_bytes": 27932
     }
   }
 }

@@ -1,0 +1,264 @@
+{
+  "retrieved": "2026-09-05",
+  "disclaimer": "Egypt has not published a distinct national ADULT immunization schedule; the Egypt section below is every adult-, health-worker-, pregnancy-, risk-group- and traveller-targeted row Egypt itself reported to WHO for 2025, read out of the same WHO/UNICEF Joint Reporting Form that underlies the childhood schedule on the 'Routine immunisation and catch-up' card. The international section applies the CDC/ACIP adult schedule as general clinical guidance, not an Egyptian mandate - use it to decide WHICH vaccine and WHEN, then check Egyptian availability separately. That CDC schedule is itself a dated snapshot of contested US policy (see cdc_legal_status below, which records exactly how far the litigation behind it was checked) - it is not settled policy.",
+  "egypt": {
+    "source": "Two sources, both re-checked 2026-09-05. (1) Egypt's own national schedule as reported to WHO: WHO Immunization Data portal, WIISE mart, view AD_SCHEDULES, filter COUNTRY eq EGY, schedule year 2025 (data/reference/library/who-egypt-immunisation-schedule-2025.txt). (2) Egypt Ministry of Health and Population childhood immunisation timetable and school immunisation schedule, the official Arabic timetable published for download by UNICEF Egypt at https://www.unicef.org/egypt/media/11676/file. Every row of the ministry timetable was compared against every row of the WHO return for this build. They agree on the hepatitis B birth dose, on oral polio at 2, 4, 6, 9, 12 and 18 months, on injected polio and pentavalent at 2, 4 and 6 months, on the 18-month DTP booster, on MMR at 12 and 18 months, and on the school meningococcal doses at 4, 6, 12 and 15 years. They DIFFER in four places, and all four are printed as unresolved rather than settled: BCG and the oral polio zero dose (ministry timetable 'first month', WHO return at birth); the second school tetanus-diphtheria dose (10 years against 9 years); and the fourth vitamin A round at 24 months, which only the WHO return carries. The ministry timetable adds the volume, the route and the injection site, which the WHO return does not carry.",
+    "schedule_year": 2025,
+    "childhood_routine": [
+      {
+        "vaccine": "BCG",
+        "age": "First weeks (unresolved - see the Egypt note)"
+      },
+      {
+        "vaccine": "Hepatitis B (pediatric)",
+        "age": "At birth, within the first 24 hours"
+      },
+      {
+        "vaccine": "Oral polio (OPV), dose 1 of 7",
+        "age": "First weeks (unresolved - see the Egypt note)"
+      },
+      {
+        "vaccine": "Pentavalent (DTwP-Hib-HepB) + inactivated polio (IPV) + oral polio (OPV)",
+        "age": "2 months"
+      },
+      {
+        "vaccine": "Pentavalent (DTwP-Hib-HepB) + inactivated polio (IPV) + oral polio (OPV)",
+        "age": "4 months"
+      },
+      {
+        "vaccine": "Pentavalent (DTwP-Hib-HepB) + inactivated polio (IPV) + oral polio (OPV)",
+        "age": "6 months"
+      },
+      {
+        "vaccine": "Oral polio (OPV)",
+        "age": "9 months"
+      },
+      {
+        "vaccine": "Measles-mumps-rubella (MMR), dose 1 + Oral polio (OPV)",
+        "age": "12 months"
+      },
+      {
+        "vaccine": "DTwP booster + MMR, dose 2 + Oral polio (OPV)",
+        "age": "18 months"
+      }
+    ],
+    "childhood_note": "Egypt gives seven oral polio doses and three injected ones (the zero dose in the first weeks - see the unresolved note below - then 2, 4, 6, 9, 12 and 18 months; injected at 2, 4 and 6 months) - more polio doses than a US/European card, correctly. The second measles dose is at 18 months, not 4-6 years - a 2-year-old with both doses is fully vaccinated for measles here. If pertussis vaccine caused an adverse event previously, Egypt substitutes plain DT + separate Hib at 2, 4, 6 and 18 months rather than dropping protection. ROUTE AND SITE, from the ministry's own timetable: hepatitis B at birth intramuscular into the RIGHT thigh, within the first 24 hours; BCG 0.05 mL intradermal into the LEFT shoulder; injected polio (IPV) 0.5 mL intramuscular RIGHT thigh; pentavalent and the 18-month DTP booster 0.5 mL intramuscular LEFT thigh; oral polio two drops by mouth; MMR 0.5 mL subcutaneous into the RIGHT arm; the school Td and meningococcal doses 0.5 mL intramuscular into the LEFT arm. The sides are the ministry's own convention and are what makes a scar or a site findable years later. COST: every routine dose and every national-campaign dose is free of charge in Egypt, to Egyptians and non-Egyptians alike (UNICEF Egypt, citing official Ministry of Health and Population data, retrieved 2026-09-05). WHERE: the nearest primary health-care unit, hospital or private paediatric clinic (same source). IF A NATIONAL CAMPAIGN FALLS NEAR AN MMR DOSE: campaign and routine doses can be given together except for MMR at 12 and 18 months, where 4 weeks between the campaign dose and the routine MMR is preferred - give the campaign dose first, then the routine MMR a month later (UNICEF Egypt with the Ministry of Health and Population, retrieved 2026-09-05). BCG AND THE ORAL POLIO ZERO DOSE ARE UNRESOLVED BETWEEN THE TWO SOURCES. The Ministry of Health and Population timetable gives hepatitis B its own row labelled 'at birth (first 24 hours)' and puts BCG and the oral polio zero dose in a separate row labelled 'first month'. Egypt's 2025 return to WHO records both at birth. 'First month' is a window that includes birth, so the two are not flatly opposed the way the school Td ages are - but the timetable had a birth row and did not use it for these two, and neither document explains the other. Give what the local unit is giving; a BCG scar and a dated card are the record, not this note. THE SECOND SCHOOL Td DOSE IS UNRESOLVED. Egypt's 2025 return to WHO puts the two school tetanus-diphtheria doses at 7 and 9 years; the Ministry of Health and Population's own published timetable shows 7 and 10 years. The 2023 return gave the second dose as 9-10 years, so the difference is not new, and neither source explains the other. This project has not resolved it: give the dose the school programme is calling for, and do not correct a school record on the strength of what is written here. VITAMIN A IS GIVEN AT THE SAME VISITS BUT IS NOT A VACCINE: 100,000 IU by mouth at 6 months and 200,000 IU at 12 and 18 months per the ministry timetable, with a fourth 24-month round reported to WHO that the ministry timetable does not show - that difference is unresolved, see egypt.vitamin_a_supplementation.",
+    "school_age": [
+      {
+        "vaccine": "Meningococcal A+C polysaccharide",
+        "age": "4 years, then 6, 12 and 15 years (school programme)"
+      },
+      {
+        "vaccine": "Tetanus-diphtheria (Td, school programme)",
+        "age": "7 years, then 9 or 10 years (unresolved - see the Egypt note)"
+      }
+    ],
+    "adult_and_risk_group": [
+      {
+        "vaccine": "Tetanus toxoid (TT)",
+        "target": "Women of childbearing age",
+        "schedule": "5-dose series: at first contact, +1 month, +6 months, +1 year, +1 year"
+      },
+      {
+        "vaccine": "Hepatitis B (adult)",
+        "target": "Health/care workers and other high-risk groups, unvaccinated",
+        "schedule": "3 doses: at first contact, +1 month, +6 months"
+      },
+      {
+        "vaccine": "Rabies post-exposure",
+        "target": "After an animal bite or scratch",
+        "schedule": "Egypt reports a 5-dose course to WHO: day of presentation, then days 3, 7, 14 and 28. THIS ROW IS AN INDEX ENTRY, NOT THE PROTOCOL - open the 'Post-Exposure Rabies Prophylaxis (Animal Bite)' card before treating anyone. Rabies post-exposure treatment is decided by the exposure category and by whether rabies immunoglobulin is needed, and the shorter WHO-recommended 4-dose intramuscular and intradermal regimens are on that card. Wound washing comes first, in every category."
+      },
+      {
+        "vaccine": "Influenza",
+        "target": "Everyone from 6 months of age, and specifically: health and care workers, pregnant women, adults and children with chronic conditions, older people, long-term-care residents",
+        "schedule": "Annual, from 6 months of age across the population"
+      },
+      {
+        "vaccine": "COVID-19",
+        "target": "All adults and older adults, health and care workers, pregnant women, all children and adolescents, and children, adolescents, adults and older adults with chronic conditions",
+        "schedule": "As per current national programme"
+      },
+      {
+        "vaccine": "Yellow fever",
+        "target": "Travellers to endemic areas",
+        "schedule": "1 dose, lifelong"
+      },
+      {
+        "vaccine": "Cholera",
+        "target": "Travellers to endemic areas",
+        "schedule": "2 doses, 2 weeks apart"
+      },
+      {
+        "vaccine": "Meningococcal ACYW polysaccharide",
+        "target": "Travellers to meningitis-belt countries",
+        "schedule": "1 dose at first contact, booster every 5-10 years while risk continues"
+      },
+      {
+        "vaccine": "Inactivated polio (IPV)",
+        "target": "Travellers to countries with circulating polio",
+        "schedule": "Per traveller's existing vaccination status"
+      },
+      {
+        "vaccine": "Meningococcal A+C polysaccharide",
+        "target": "Prisoners",
+        "schedule": "1 dose at first contact, booster at +3 years"
+      }
+    ],
+    "vitamin_a_supplementation": {
+      "not_a_vaccine": true,
+      "why_it_is_here": "Vitamin A is given at the same visits as the vaccines and is recorded on the same card, so it is listed here - but it is a supplement, not an immunisation, and it has its own heading for that reason.",
+      "doses": [
+        {
+          "age": "6 months",
+          "dose": "100,000 IU by mouth"
+        },
+        {
+          "age": "12 months",
+          "dose": "200,000 IU by mouth"
+        },
+        {
+          "age": "18 months",
+          "dose": "200,000 IU by mouth"
+        }
+      ],
+      "dose_source": "Egypt Ministry of Health and Population childhood immunisation timetable (https://www.unicef.org/egypt/media/11676/file), retrieved 2026-09-05: vitamin A 100 thousand units at 6 months, 200 thousand units at 12 and at 18 months, all by mouth.",
+      "unresolved": "A FOURTH DOSE AT 24 MONTHS IS UNRESOLVED. What Egypt reported to WHO for 2025 lists four vitamin A rounds - 6, 12, 18 and 24 months. The ministry's own published timetable stops at 18 months and shows three. Neither source explains the difference and this project has not resolved it; do not tell a parent the 24-month dose is or is not due on the strength of what is written here."
+    }
+  },
+  "cdc_legal_status": "STATUS OF THIS CDC SCHEDULE - A DATED RECORD, NOT A LIVE QUOTE. On 2026-09-03 the CDC adult schedule page was recorded as carrying this banner: 'Pursuant to the preliminary order issued on March 16, 2026, in American Academy of Pediatrics et al. v. Kennedy et al., No. 1:25-cv-11916 (D. Mass.), which stayed all votes taken by the ACIP during its June, September and December 2025 meetings, and further stayed the Acting CDC Director's January 5, 2026 Decision Memo revising the CDC's childhood immunization schedule, the July 2, 2025 immunization schedule (as amended on April 27, 2026 to add the ACIP's April 2025 RSV recommendation as adopted by HHS) posted here is the current CDC Adult Immunization Schedule by Age for Healthcare Professionals.' ON 2026-09-05 THAT BANNER COULD NOT BE FOUND AGAIN. Two CDC pages were re-read that day - the adult schedule by age and the schedules index - and neither showed any litigation notice or any April 2026 amendment; both showed only 'Posted Date: July 2, 2025' and 'Addendum updated July 2, 2025'. Whether the banner was removed in those two days or was never displayed as recorded is NOT RESOLVED here. The litigation itself was checked separately, but only as far as a court-listing database entry: American Academy of Pediatrics et al. v. Kennedy et al., No. 1:25-cv-11916-BEM (D. Mass.), Order on Motion for Preliminary Injunction, document 291, filed 2026-03-16, recorded there as staying the January 2026 decision memo, the appointments of the newly selected ACIP members, and the votes that committee took. The order itself was not opened, so that docket entry is the whole of the check. THE PRACTICAL POINT IS UNCHANGED: the American adult schedule below is a dated snapshot of contested policy, not settled guidance, and it is not Egyptian policy. Open the CDC page yourself before relying on any row.",
+  "international_adult_schedule": {
+    "source": "CDC/ACIP Recommended Adult Immunization Schedule, Ages 19y+, United States. Table 1 (by age) and Table 2 (by medical condition) both carry the posted date July 2, 2025 and were re-read live on 2026-09-05: https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html and https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-medical-condition.html. Local capture of the 3 September retrieval: data/reference/library/cdc-acip-adult-immunization-schedule-2025.txt, whose by-condition section is written as prose paragraphs rather than a matrix - the pregnancy, immunocompromise, HIV, asplenia, chronic liver, diabetes, renal and cardiorespiratory paragraphs there are what the chronic-disease cards in this app cite. TWO ROWS DO NOT COME FROM THAT SUMMARY TABLE, because it is less specific than the disease-specific ACIP pages and, for influenza, four days out of date. Influenza: CDC, Seasonal Influenza Vaccines (ACIP summary for health care providers), last updated 1 September 2026, read 2026-09-05, https://www.cdc.gov/flu/hcp/vax-summary/seasonal-influenza-vaccines.html - the preference for HD-IIV3/RIV3/aIIV3 begins at 65, not 50, and HD-IIV3 and aIIV3 are not licensed below 65. Pneumococcal: CDC, Pneumococcal Vaccine Recommendations, dated 25 February 2026, read 2026-09-05, https://www.cdc.gov/pneumococcal/hcp/vaccine-recommendations/index.html - PCV15, PCV20 or PCV21 for all adults from 50, not from 65.",
+    "by_vaccine": [
+      {
+        "vaccine": "Influenza",
+        "routine": "1 dose every year, every adult. From 65 years, and only from 65: high-dose (HD-IIV3), recombinant (RIV3) or adjuvanted (aIIV3) is preferentially recommended - if none of the three is available, give any other age-appropriate influenza vaccine rather than delay. Below 65 there is no preferred product, and HD-IIV3 and aIIV3 are not licensed below 65 at all (RIV3 is licensed from 9 years).",
+        "special_situations": "Egg allergy is not a reason to withhold any influenza vaccine. One exception to the age rule: a solid organ transplant recipient aged 18 to 64 on an immunosuppressive regimen may be given HD-IIV3 or aIIV3 - ACCEPTABLE options, explicitly not preferred over an age-appropriate IIV3 or RIV3."
+      },
+      {
+        "vaccine": "Tetanus, diphtheria, pertussis (Tdap/Td)",
+        "routine": "1 dose Tdap once in adulthood if never had one, then Td or Tdap booster every 10 years.",
+        "special_situations": "Pregnancy: 1 dose Tdap every pregnancy, ideally weeks 27-36. Wound management: Tdap/Td if >10 years since last dose for a clean minor wound, or >5 years for any other wound; use Tdap if the patient's Tdap history is absent or unknown."
+      },
+      {
+        "vaccine": "Zoster, recombinant (RZV / Shingrix)",
+        "routine": "2 doses, 2-6 months apart (minimum 4 weeks), from age 50, regardless of past shingles or old live-vaccine history.",
+        "special_situations": "Any adult age if immunocompromised, including HIV regardless of CD4 count (RZV is inactivated). No prior varicella serology required."
+      },
+      {
+        "vaccine": "Pneumococcal (PCV15/PCV20/PCV21/PPSV23)",
+        "routine": "From age 50, whether or not there is a qualifying condition: 1 dose of PCV15, PCV20 or PCV21 for every adult who has never had a pneumococcal conjugate vaccine or whose history is unknown. If PCV15 is used, add PPSV23 >=1 year later - one dose only; PCV20 or PCV21 need no PPSV23 and complete the course. Below 50, a qualifying condition can still be the indication (see Table 2).",
+        "special_situations": "Sequencing depends entirely on prior vaccination history - use the CDC's decision app rather than a rule of thumb: cdc.gov/pneumococcal/hcp/vaccine-recommendations/app.html. Someone already vaccinated is not simply given another dose: from 65 years, an adult who had PCV13 (but not PCV15, PCV20 or PCV21) at any age and PPSV23 at or after 65 has the option of PCV20 or PCV21 by shared clinical decision-making."
+      },
+      {
+        "vaccine": "RSV",
+        "routine": "1 dose from age 75, no booster. Age 50-74 with an increased-risk condition (heart failure, COPD/asthma/ILD, ESRD/dialysis, complicated diabetes, chronic liver disease, severe obesity, immunocompromise, nursing-home residence, others): 1 dose via shared decision-making.",
+        "special_situations": "Pregnancy: 1 dose Abrysvo at 32-36 weeks 6 days, in season, as an alternative to giving the infant nirsevimab."
+      },
+      {
+        "vaccine": "Hepatitis A",
+        "routine": "2- or 3-dose series for any unvaccinated adult who requests it.",
+        "special_situations": "Risk-factor indications: chronic liver disease (incl. hepatitis B/C, cirrhosis, fatty liver, alcoholic liver disease, autoimmune hepatitis, or ALT/AST >2x ULN), HIV, men who have sex with men, injection/non-injection drug use, homelessness, travel to endemic areas, close contact with an international adoptee from an endemic country."
+      },
+      {
+        "vaccine": "Hepatitis B",
+        "routine": "2/3/4-dose series, ages 19-59, routine.",
+        "special_situations": "Age 60+: give if a risk factor is present (sexual exposure, injection drug use, dialysis/pre-dialysis, incarceration, travel, diabetes via shared decision-making) or on request. Dialysis patients need a dialysis-specific dose/schedule (double dose or the 40 mcg dialysis formulation)."
+      },
+      {
+        "vaccine": "HPV",
+        "routine": "2 or 3 doses through age 26 depending on age at first dose.",
+        "special_situations": "27-45y: shared clinical decision-making. Immunocompromised (incl. HIV): always the full 3-dose series, even if started before 15."
+      },
+      {
+        "vaccine": "MMR",
+        "routine": "1-2 doses if born 1957 or later with no evidence of immunity.",
+        "special_situations": "Contraindicated in pregnancy and in severe immunocompromise. HIV: only if CD4 >=15% and >=200/mm3 for 6+ months. Health care personnel: full 2-dose series regardless of birth year."
+      },
+      {
+        "vaccine": "Varicella",
+        "routine": "2 doses, 4-8 weeks apart, if born 1980 or later with no evidence of immunity.",
+        "special_situations": "Contraindicated in pregnancy and severe immunocompromise. Health care personnel and pregnant women do not get the pre-1980 birth-year exemption."
+      },
+      {
+        "vaccine": "Meningococcal ACWY",
+        "routine": "Not routine for the general adult population.",
+        "special_situations": "Asplenia, complement deficiency/complement-inhibitor use, HIV: 2-dose primary series >=8 weeks apart, booster every 5 years. Travel to the meningitis belt, or routine microbiology exposure: 1 dose, booster every 5 years while risk continues."
+      },
+      {
+        "vaccine": "Meningococcal B",
+        "routine": "Not routine.",
+        "special_situations": "16-23y (16-18 preferred): shared decision-making, 2 doses >=6 months apart. Asplenia/complement deficiency: 3-dose primary series plus boosters every 2-3 years."
+      },
+      {
+        "vaccine": "Haemophilus influenzae type b (Hib)",
+        "routine": "Not routine in adults.",
+        "special_situations": "Asplenia (incl. sickle cell disease): 1 dose. Planned splenectomy: 1 dose, ideally >=14 days pre-op. Haematopoietic stem cell transplant: 3 doses, 4 weeks apart, from 6-12 months post-transplant, regardless of prior Hib history."
+      },
+      {
+        "vaccine": "Mpox",
+        "routine": "Not routine.",
+        "special_situations": "2 doses, 28 days apart, for defined recent sexual-exposure risk factors (see source for the full criteria)."
+      },
+      {
+        "vaccine": "Inactivated poliovirus (IPV)",
+        "routine": "Complete a 3-dose primary series if unvaccinated/incompletely vaccinated as an adult.",
+        "special_situations": "Adults at ongoing travel/occupational risk who completed the primary series: one lifetime booster dose."
+      },
+      {
+        "vaccine": "COVID-19",
+        "routine": "Per current national/CDC guidance at the time of the visit - dosing and product recommendations here have changed repeatedly and are the fastest-moving part of this schedule; check the source URL rather than relying on a cached count.",
+        "special_situations": "Age 65+ and moderate-severe immunocompromise carry the clearest benefit per current ACIP framing."
+      }
+    ]
+  },
+  "previously_retrieved": "2026-09-03",
+  "recheck_note": "Re-verified 2026-09-05 against the live sources, not against the 3 September cache. Egypt's rows were re-pulled from the WHO WIISE AD_SCHEDULES API that day: 2025 is still the most recent year Egypt has reported, 75 rows, identical in content to the cached file. The childhood rows were then checked a second time against Egypt's own Ministry of Health and Population immunisation timetable, which UNICEF Egypt publishes for download. The CDC adult pages were re-read the same day; what changed there is recorded in cdc_legal_status.",
+  "catch_up_and_interrupted_schedules": {
+    "source": "WHO, Table 3: Recommendations for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers, updated December 2025. https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers (PDF retrieved 2026-09-05).",
+    "general_rule": "For an interrupted primary series the entry for hepatitis B, polio, DTP-containing vaccine, Hib, pneumococcal conjugate, rotavirus, measles, mumps, varicella, HPV, hepatitis A, rabies, influenza, dengue, malaria and tick-borne encephalitis is the same instruction: 'Resume without repeating previous dose'. Nothing already given is wasted and the series is not begun again.",
+    "exceptions_where_the_series_is_restarted": [
+      {
+        "vaccine": "Oral typhoid, Ty21a (capsules)",
+        "rule": "If the interruption is under 21 days, resume without repeating. If it is over 21 days, restart the primary series."
+      },
+      {
+        "vaccine": "Oral cholera vaccine, WC-rBS (Dukoral) - THIS ONE IS RESTARTED",
+        "rule": "If 6 weeks have passed since the last dose, restart the primary series. Revaccination: age 2-5 years, within 6 months - after 6 months the 3-dose primary series is repeated; age 6 years and over, within 2 years - after 2 years the 2-dose primary series is repeated."
+      },
+      {
+        "vaccine": "Oral cholera vaccine, WC (Shanchol, Euvichol, mORCVAX) - RESUMED, NOT RESTARTED",
+        "rule": "Resume without repeating the previous dose, regardless of delay - the opposite of the Dukoral rule above. Revaccination after 3 years. ASK WHICH PRODUCT WAS GIVEN - the two rules are opposite and nothing here establishes which is in use. Egypt's 2025 return to WHO gives travellers 2 doses 14 days apart but names no product; 14 days apart is the WC interval, which is suggestive and not proof. The Egyptian register lists one cholera product, an injectable VACSERA vaccine, so neither oral product is registered here under its own name."
+      }
+    ],
+    "minimum_ages_and_intervals": [
+      "BCG: as soon as possible after birth.",
+      "Hepatitis B: birth dose as soon as possible after birth and within 24 hours, then 2-3 doses with DTP-containing vaccine, minimum 4 weeks apart.",
+      "DTP-containing vaccine: minimum age 6 weeks, 3 doses, minimum 4 weeks apart.",
+      "Hib: minimum age 6 weeks.",
+      "Oral polio (bOPV): minimum age 6 weeks. Injected polio (IPV): 14 weeks preferred, 6 weeks in the early option.",
+      "Pneumococcal conjugate and rotavirus: minimum age 6 weeks.",
+      "Measles: 9 or 12 months depending on the programme (6 months minimum in the situations the position paper names), 2 doses, minimum 4 weeks apart.",
+      "Varicella: 12-18 months. Mumps: 12-18 months, with measles- and rubella-containing vaccine.",
+      "HPV: from 9 years of age.",
+      "Seasonal inactivated influenza: minimum age 6 months; 2 doses from 6 months to 8 years of age, 1 dose from 9 years."
+    ],
+    "tetanus_lifelong_protection": "WHO Table 3, booster column: three boosters after the primary series - at 12-23 months with a DTP-containing vaccine, at 4-7 years with a Td- or DT-containing vaccine, and at 9-15 years with a Td-containing vaccine. Over 7 years of age use only an acellular-pertussis-containing product; over 4 years a Td-containing product is preferred. If tetanus vaccination is only started in adolescence or adulthood, 5 doses are required for lifelong protection - which is the arithmetic behind Egypt's 5-dose tetanus course for women of childbearing age."
+  },
+  "health_care_workers": {
+    "source": "WHO, Table 4: Summary of WHO Position Papers - Immunization of Health Care Workers, updated December 2025. https://www.who.int/publications/m/item/table-4-summary-of-who-position-papers-immunization-of-health-care-workers (PDF retrieved 2026-09-05). WHO's own framing: 'It is expected that HCWs are fully vaccinated per the national vaccination schedule in use in their country.'",
+    "recommended": [
+      "Hepatitis B - suggested for groups at risk who have not been vaccinated previously, for example health workers who may be exposed to blood and blood products at work. This is also the one adult course Egypt itself schedules for health workers: 3 doses at first contact, +1 month, +6 months.",
+      "Influenza - health workers are an important group; annual immunisation with a single dose.",
+      "Measles - all health workers should be immune, with proof or documentation of immunity or immunisation required as a condition of enrolment into training and employment.",
+      "Rubella - the same requirement, where rubella vaccine is in the national programme. Egypt gives MMR at 12 and 18 months.",
+      "Polio - all health workers should have completed a full primary course.",
+      "Diphtheria - for those with occupational exposure to C. diphtheriae, and all health workers up to date with their national schedule.",
+      "Pertussis - health workers should be prioritised.",
+      "Varicella - countries should consider 2 doses for health workers who are unvaccinated and have no history of chickenpox.",
+      "BCG - for unvaccinated, tuberculin- or IGRA-negative people at risk of occupational exposure, in both low and high TB incidence areas.",
+      "Meningococcal - one booster 3-5 years after the primary dose may be given where exposure risk continues."
+    ],
+    "no_who_recommendation_for_health_workers": "Tetanus, Hib, pneumococcal, rotavirus, HPV, yellow fever, typhoid, cholera, hepatitis A, rabies, mumps, dengue and malaria carry no WHO recommendation aimed at health workers as such - rabies pre-exposure prophylaxis may still be considered for those who regularly provide care to people with rabies, which is what WHO writes in that row. That is not a statement that the vaccine is useless - it means working in health care is not itself the risk factor. Japanese encephalitis and tick-borne encephalitis apply only to defined high-risk work in endemic areas."
+  }
+}
