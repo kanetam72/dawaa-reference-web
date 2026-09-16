@@ -2,7 +2,8 @@
   "base_href": "/dawaa-reference-web/",
   "database_sha256": "0154f7a428e1fdc1e00621e79ca2521756407743999d87a5f6010174ba49106c",
   "files": {
-    ".last_build_id": "6824f2a93edaf62409273bacd129315ae1f881e04780a0a766bed48fbd91e40b",
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "assets/AssetManifest.bin": "7b6509a7b47010cef1de6253495e15caffeaaae1572044e1e03057e659d65d5f",
     "assets/AssetManifest.bin.json": "e8beab1657b162404993d7894d5bf5c65251b9c58ad2586c95107b86523179cb",
     "assets/FontManifest.json": "0cd4d62aa7490e1cb32216db50fe4140a842a2479c9f8ed80632f9120c4764dc",
@@ -38,7 +39,7 @@
     "canvaskit/wimp.wasm": "5c34d37553d9ff2cf4be0de2288914b524fae40588aeadaa51facb1ec6d7eab4",
     "favicon.png": "d3dc4fbc0afa0beb8cab1889631e89bbe8e902f751b4b610bcd88d4d226694f6",
     "flutter.js": "a483fd28f51ed2fadd0da3fade5b672eba56310d549d736ce62eabf624a6a578",
-    "flutter_bootstrap.js": "9ca31d88455b826f4846e73133b6a3b4d58bdd7301f98db686ace546d76da157",
+    "flutter_bootstrap.js": "73844c2debea3ee9b14050de2d4f0ec4e51b6d13ec028fd6c86175d3cf687062",
     "flutter_service_worker.js": "dbfbe64ae5be5b462abb97338eb9af783ed4ed57a8c73a53c2a44488a26f6416",
     "icons/Icon-192.png": "2ce841f130f7270340edae6c1ed8a3c3f67b4b22f2ff90a2b52fece1c95e9073",
     "icons/Icon-512.png": "45f2a68b4fa703d009e6d46be238792ca2dfd48e0eef1ea2f2cc9a2b5671dbc7",
@@ -57,5 +58,5 @@
     "version.json": "3f90888bbbe71db9e77c4c95d4235604985c14c1042b1164619f43dd8fb968a9"
   },
   "manifest_sha256": "74653a1ba193becc84b2513d3573b1217b5c8183359f0ea4dd76033f80f12f35",
-  "mobile_commit": "2d8258e8b2e3e05cffb7b703707f45728799324d"
+  "mobile_commit": "29770d2130fc205fdb393a821eae0044e0dd8a9e"
 }
