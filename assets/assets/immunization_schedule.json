@@ -7,50 +7,75 @@
     "childhood_routine": [
       {
         "vaccine": "BCG",
-        "age": "First weeks (unresolved - see the Egypt note)"
+        "age": "First weeks (unresolved - see the Egypt note)",
+        "administration": "BCG: 0.05 mL, intradermal, left shoulder.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17).",
+        "unresolved": "Timing unresolved: ministry timetable says first month; Egypt’s WHO return says birth. Follow the local immunization programme."
       },
       {
         "vaccine": "Hepatitis B (pediatric)",
-        "age": "At birth, within the first 24 hours"
+        "age": "At birth, within the first 24 hours",
+        "administration": "Hepatitis B: intramuscular, right thigh. Confirm volume against the product label; this reference does not resolve the timetable’s birth-dose volume.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17)."
       },
       {
         "vaccine": "Oral polio (OPV), dose 1 of 7",
-        "age": "First weeks (unresolved - see the Egypt note)"
+        "age": "First weeks (unresolved - see the Egypt note)",
+        "administration": "OPV: 2 drops by mouth.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17).",
+        "unresolved": "Timing unresolved: ministry timetable says first month; Egypt’s WHO return says birth. Follow the local immunization programme."
       },
       {
         "vaccine": "Pentavalent (DTwP-Hib-HepB) + inactivated polio (IPV) + oral polio (OPV)",
-        "age": "2 months"
+        "age": "2 months",
+        "administration": "OPV: 2 drops by mouth.\nPentavalent: 0.5 mL, intramuscular, left thigh.\nIPV: 0.5 mL, intramuscular, right thigh.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17)."
       },
       {
         "vaccine": "Pentavalent (DTwP-Hib-HepB) + inactivated polio (IPV) + oral polio (OPV)",
-        "age": "4 months"
+        "age": "4 months",
+        "administration": "OPV: 2 drops by mouth.\nPentavalent: 0.5 mL, intramuscular, left thigh.\nIPV: 0.5 mL, intramuscular, right thigh.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17)."
       },
       {
         "vaccine": "Pentavalent (DTwP-Hib-HepB) + inactivated polio (IPV) + oral polio (OPV)",
-        "age": "6 months"
+        "age": "6 months",
+        "administration": "OPV: 2 drops by mouth.\nPentavalent: 0.5 mL, intramuscular, left thigh.\nIPV: 0.5 mL, intramuscular, right thigh.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17)."
       },
       {
         "vaccine": "Oral polio (OPV)",
-        "age": "9 months"
+        "age": "9 months",
+        "administration": "OPV: 2 drops by mouth.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17)."
       },
       {
         "vaccine": "Measles-mumps-rubella (MMR), dose 1 + Oral polio (OPV)",
-        "age": "12 months"
+        "age": "12 months",
+        "administration": "OPV: 2 drops by mouth.\nMMR: 0.5 mL, subcutaneous, right arm.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17)."
       },
       {
         "vaccine": "DTwP booster + MMR, dose 2 + Oral polio (OPV)",
-        "age": "18 months"
+        "age": "18 months",
+        "administration": "OPV: 2 drops by mouth.\nMMR: 0.5 mL, subcutaneous, right arm.\nDTP booster: 0.5 mL, intramuscular, left thigh.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17)."
       }
     ],
     "childhood_note": "Egypt gives seven oral polio doses and three injected ones (the zero dose in the first weeks - see the unresolved note below - then 2, 4, 6, 9, 12 and 18 months; injected at 2, 4 and 6 months) - more polio doses than a US/European card, correctly. The second measles dose is at 18 months, not 4-6 years - a 2-year-old with both doses is fully vaccinated for measles here. If pertussis vaccine caused an adverse event previously, Egypt substitutes plain DT + separate Hib at 2, 4, 6 and 18 months rather than dropping protection. ROUTE AND SITE, from the ministry's own timetable: hepatitis B at birth intramuscular into the RIGHT thigh, within the first 24 hours; BCG 0.05 mL intradermal into the LEFT shoulder; injected polio (IPV) 0.5 mL intramuscular RIGHT thigh; pentavalent and the 18-month DTP booster 0.5 mL intramuscular LEFT thigh; oral polio two drops by mouth; MMR 0.5 mL subcutaneous into the RIGHT arm; the school Td and meningococcal doses 0.5 mL intramuscular into the LEFT arm. The sides are the ministry's own convention and are what makes a scar or a site findable years later. COST: every routine dose and every national-campaign dose is free of charge in Egypt, to Egyptians and non-Egyptians alike (UNICEF Egypt, citing official Ministry of Health and Population data, retrieved 2026-09-05). WHERE: the nearest primary health-care unit, hospital or private paediatric clinic (same source). IF A NATIONAL CAMPAIGN FALLS NEAR AN MMR DOSE: campaign and routine doses can be given together except for MMR at 12 and 18 months, where 4 weeks between the campaign dose and the routine MMR is preferred - give the campaign dose first, then the routine MMR a month later (UNICEF Egypt with the Ministry of Health and Population, retrieved 2026-09-05). BCG AND THE ORAL POLIO ZERO DOSE ARE UNRESOLVED BETWEEN THE TWO SOURCES. The Ministry of Health and Population timetable gives hepatitis B its own row labelled 'at birth (first 24 hours)' and puts BCG and the oral polio zero dose in a separate row labelled 'first month'. Egypt's 2025 return to WHO records both at birth. 'First month' is a window that includes birth, so the two are not flatly opposed the way the school Td ages are - but the timetable had a birth row and did not use it for these two, and neither document explains the other. Give what the local unit is giving; a BCG scar and a dated card are the record, not this note. THE SECOND SCHOOL Td DOSE IS UNRESOLVED. Egypt's 2025 return to WHO puts the two school tetanus-diphtheria doses at 7 and 9 years; the Ministry of Health and Population's own published timetable shows 7 and 10 years. The 2023 return gave the second dose as 9-10 years, so the difference is not new, and neither source explains the other. This project has not resolved it: give the dose the school programme is calling for, and do not correct a school record on the strength of what is written here. VITAMIN A IS GIVEN AT THE SAME VISITS BUT IS NOT A VACCINE: 100,000 IU by mouth at 6 months and 200,000 IU at 12 and 18 months per the ministry timetable, with a fourth 24-month round reported to WHO that the ministry timetable does not show - that difference is unresolved, see egypt.vitamin_a_supplementation.",
     "school_age": [
       {
         "vaccine": "Meningococcal A+C polysaccharide",
-        "age": "4 years, then 6, 12 and 15 years (school programme)"
+        "age": "4 years, then 6, 12 and 15 years (school programme)",
+        "administration": "0.5 mL, intramuscular, left arm.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17)."
       },
       {
         "vaccine": "Tetanus-diphtheria (Td, school programme)",
-        "age": "7 years, then 9 or 10 years (unresolved - see the Egypt note)"
+        "age": "7 years, then 9 or 10 years (unresolved - see the Egypt note)",
+        "administration": "0.5 mL, intramuscular, left arm.",
+        "administration_source": "Egypt Ministry of Health and Population timetable, hosted by UNICEF Egypt: https://www.unicef.org/egypt/media/11676/file (reopened 2026-09-17).",
+        "unresolved": "Second school Td dose unresolved: ministry timetable says 10 years; Egypt’s WHO return says 9 years. Follow the school programme."
       }
     ],
     "adult_and_risk_group": [
