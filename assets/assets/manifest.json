@@ -1,6 +1,6 @@
 {
   "db_filename": "pharmacy.db",
-  "sha256": "331d80789cd9afb27f7e0e5d8132fdc7784ecae6dd6b2a1719694b81f13148f5",
+  "sha256": "efc21f2f4a33e0a42cf1f7acfc15fd85ac5260ee9a4461831ee7fe3ee29aa1fb",
   "size_bytes": 17629184,
   "dataset_snapshot": "2026-06",
   "condition_count": 766,
@@ -9,7 +9,7 @@
   "pending_count": 6,
   "table_row_counts": {
     "brands": 8516,
-    "cautions": 8357,
+    "cautions": 8369,
     "condition_scores": 36,
     "condition_specialties": 1222,
     "condition_urgency": 191,
@@ -35,18 +35,18 @@
     "scores": 24,
     "specialties": 18,
     "synonyms": 4193,
-    "treatments": 2030,
+    "treatments": 2032,
     "withdrawn": 2
   },
   "risk_charts": {
     "who_cvd_grid.json": {
-      "sha256": "3c3ed9adef639247448b0e86e9a146ec50b56508a081472c20385f02d2d561b0",
-      "size_bytes": 25921,
+      "sha256": "6f95b520ebbc79e367e919aca59a8021e67e20826b29da9274f974c6ce0dcb53",
+      "size_bytes": 25181,
       "cells": 700
     },
     "who_cvd_grid_lab.json": {
-      "sha256": "fe8a2df88044bd56fb2abe9d398dea6cce5ce83882d43a929c255453a2ec5dfa",
-      "size_bytes": 53653,
+      "sha256": "03a239092045a9ee1b373a7a382109faa227dde7a6972cef7bc8a475baddff8d",
+      "size_bytes": 52209,
       "cells": 1400
     }
   },
