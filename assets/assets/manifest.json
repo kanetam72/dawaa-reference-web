@@ -1,8 +1,8 @@
 {
   "medication_catalog_version": 7,
   "db_filename": "pharmacy.db",
-  "sha256": "bd4da52be66c0669f435e2bcdb09ed37f8e525c6b3dacf11846472bd3faa438e",
-  "size_bytes": 26505216,
+  "sha256": "5897318734820fabd6452d5cfe2e454ab48b3e6d744a8ebc6d97783a1264de14",
+  "size_bytes": 30191616,
   "dataset_snapshot": "2026-06",
   "condition_count": 766,
   "verified_count": 0,
@@ -11,7 +11,7 @@
   "table_row_counts": {
     "brands": 8491,
     "cautions": 8367,
-    "condition_pathways": 226,
+    "condition_pathways": 254,
     "condition_scores": 36,
     "condition_specialties": 1222,
     "condition_urgency": 191,
@@ -23,16 +23,16 @@
     "finding_tag_synonyms": 1978,
     "finding_tags": 363,
     "indications": 87,
-    "medication_catalog": 40,
-    "medication_indications": 68,
+    "medication_catalog": 47,
+    "medication_indications": 80,
     "medication_references": 1,
-    "medication_regimens": 166,
-    "medication_source_claims": 470,
+    "medication_regimens": 192,
+    "medication_source_claims": 507,
     "meta": 8,
     "presentation": 731,
     "presentation_point_tags": 6736,
     "presentation_points": 15053,
-    "product_presentations": 84,
+    "product_presentations": 89,
     "product_use_references": 2,
     "products": 25070,
     "score_bands": 59,
@@ -66,9 +66,16 @@
   },
   "source_reference_notices": {
     "source_reference_notices.json": {
-      "sha256": "7e901373352485b67aa7e5ae54e12ebe92da6bb2b4017ebfaad45642c89eacf3",
-      "size_bytes": 5785,
+      "sha256": "ac3dda9b5f68aebe7fe4d59b08e111e912d1525653de196ffd32449f5dc06ace",
+      "size_bytes": 5888,
       "origins": 5
+    }
+  },
+  "hospital_protocols": {
+    "hospital_protocols.json": {
+      "sha256": "7a7f95729b50f18e5458b5685e5e5798094c90dbcfb29e64f3032a6b03c00370",
+      "size_bytes": 2331645,
+      "protocols": 3
     }
   }
 }
