@@ -1,8 +1,8 @@
 {
   "medication_catalog_version": 8,
   "db_filename": "pharmacy.db",
-  "sha256": "a69e3b9e95435a6cf59f147237be95eafe766ab485d5a74cdf88f10146af68e0",
-  "size_bytes": 33173504,
+  "sha256": "78b0e59db44ee7a5f58b40d76e3fc02b79a8532f792e2983cf0e775dbed8e42c",
+  "size_bytes": 33177600,
   "dataset_snapshot": "2026-06",
   "condition_count": 768,
   "verified_count": 0,

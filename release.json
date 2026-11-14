@@ -1,6 +1,6 @@
 {
   "base_href": "/dawaa-reference-web/",
-  "database_sha256": "a69e3b9e95435a6cf59f147237be95eafe766ab485d5a74cdf88f10146af68e0",
-  "manifest_sha256": "3d121617b882c1b61099ad7248e64db10297753e7d27a0fb8cb6f93d586c1d29",
-  "mobile_commit": "c8a4c2083c71f06c5130a699412b027056b2d4eb"
+  "database_sha256": "78b0e59db44ee7a5f58b40d76e3fc02b79a8532f792e2983cf0e775dbed8e42c",
+  "manifest_sha256": "3539f69d06ff13aa6587fc650592bc9749637bb1e5f333a09c35b4f2b55fdec5",
+  "mobile_commit": "00055cab9d727519624903111cc68cedf880ff7f"
 }
